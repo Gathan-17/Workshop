@@ -1,0 +1,271 @@
+.share-icon {
+  color: white; /* Ini akan membuat SVG-nya berwarna putih */
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.share-icon:hover {
+  transform: scale(1.2); /* efek saat hover */
+}
+
+
+  nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    background-color: #001f3f; /* warna biru gelap */
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    transition: 0.3s ease;
+  }
+
+  nav a:hover {
+    color: #FFD700; /* warna kuning saat hover */
+    text-shadow: 0 0 10px #FFD700, 0 0 20px #FFD700;
+    transform: scale(1.1);
+  }
+
+
+#home .home-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  gap: 30px;
+}
+
+#home .home-text {
+  flex: 1;
+}
+
+#home .home-image img {
+  width: 400px; /* sesuaikan ukuran gambar */
+  height: auto;
+  border-radius: 10px;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+body {
+  background: linear-gradient(to right, red, blue);
+  min-height: 100vh;
+  margin: 0;
+}
+
+
+header {
+  background: #003087;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+nav a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1em;
+  padding: 1em;
+}
+.card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);;
+  border-radius: 8px;
+  padding: 1em;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  width: 200px;
+  text-align: center;
+  max-height: fit-content;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+section {
+  padding: 2em;
+}
+footer {
+  background: #d00027;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+}
+
+/* Gaya umum untuk halaman */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #a50044, #004d98); /* Gradasi khas FC Barcelona */
+  color: white;
+}
+
+
+
+#contact a {
+  color: #ffd700; /* Warna emas */
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+#contact a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  font-size: 14px;
+}
+
+.jersey-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 30px;
+}
+
+.jersey-img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
+
+.card {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+/* Membuat semua gambar sama tinggi */
+.card img {
+  height: 250px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+/* Hover efek jika ingin */
+.card:hover {
+  transform: scale(1.05);
+}
+
+.buy-button {
+  background-color: #fff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.buy-button {
+  background-color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  color: #000;
+}
+
+.buy-button:hover {
+  background-color: #eee;
+}
+
+#contact {
+  text-align: center;
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 16px;
+  margin: 50px auto;
+  max-width: 800px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+#contact h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+#contact p {
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.social-media {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.social-media li {
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 12px;
+  padding: 10px 20px;
+  transition: transform 0.3s ease, background 0.3s;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.social-media li:hover {
+  transform: scale(1.1);
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.social-media a {
+  color: #000;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.social-media i {
+  font-size: 20px;
+  color: #000;
+}
